@@ -25,7 +25,7 @@ app.use(express.urlencoded({ extended: true }));
 app.get('/', (req, res) => {
   res.json({ info: 'Node.js, Express, and Postgres API - Starter Template' });
 });
-app.use('api/users', userRoutes);
+app.use('/api/v1/users', userRoutes);
 
 // Global error handler
 app.use((err, req, res, next) => {
