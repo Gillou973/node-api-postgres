@@ -23,8 +23,9 @@ app.use(express.urlencoded({ extended: true }));
 
 // Routes
 app.get('/', (req, res) => {
-  res.json({ info: 'Node.js, Express, and Postgres API - Starter Template' });
+  res.json({ info: 'Node.js, Express, and Postgres API - Starter Template by Gillou' });
 });
+
 app.use('/api/v1/users', userRoutes);
 
 // Global error handler
