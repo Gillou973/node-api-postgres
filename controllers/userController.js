@@ -28,6 +28,7 @@ exports.getUserById = async (req, res) => {
   }
 };
 
+
 // POST create user
 exports.createUser = async (req, res) => {
   const { nom, prenom, adresse, email, telephone } = req.body;

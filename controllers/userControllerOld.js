@@ -10,8 +10,6 @@ exports.getUsers = async (req, res) => {
   }
 };
 
-
-
 // GET user by ID
 exports.getUserById = async (req, res) => {
   const id = req.params.id;
